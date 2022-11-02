@@ -15,6 +15,7 @@
 		593C92B228FE678F00199477 /* compiler.c in Sources */ = {isa = PBXBuildFile; fileRef = 593C92B128FE678F00199477 /* compiler.c */; };
 		593C92B528FE683800199477 /* scanner.c in Sources */ = {isa = PBXBuildFile; fileRef = 593C92B428FE683800199477 /* scanner.c */; };
 		59947DDD28F917DD00C4346E /* vm.c in Sources */ = {isa = PBXBuildFile; fileRef = 59947DDC28F917DD00C4346E /* vm.c */; };
+		59A3A7062912256300952759 /* table.c in Sources */ = {isa = PBXBuildFile; fileRef = 59A3A7052912256300952759 /* table.c */; };
 		59C52CD4290A462500AEB18D /* object.c in Sources */ = {isa = PBXBuildFile; fileRef = 59C52CD3290A462500AEB18D /* object.c */; };
 /* End PBXBuildFile section */
 
@@ -48,6 +49,8 @@
 		593C92B428FE683800199477 /* scanner.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = scanner.c; sourceTree = "<group>"; };
 		59947DDB28F917DD00C4346E /* vm.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = vm.h; sourceTree = "<group>"; };
 		59947DDC28F917DD00C4346E /* vm.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = vm.c; sourceTree = "<group>"; };
+		59A3A7042912256300952759 /* table.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = table.h; sourceTree = "<group>"; };
+		59A3A7052912256300952759 /* table.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = table.c; sourceTree = "<group>"; };
 		59C52CD2290A462500AEB18D /* object.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = object.h; sourceTree = "<group>"; };
 		59C52CD3290A462500AEB18D /* object.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = object.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -100,6 +103,8 @@
 				590B038128F68400008BE961 /* memory.c */,
 				59C52CD2290A462500AEB18D /* object.h */,
 				59C52CD3290A462500AEB18D /* object.c */,
+				59A3A7042912256300952759 /* table.h */,
+				59A3A7052912256300952759 /* table.c */,
 			);
 			path = clox;
 			sourceTree = "<group>";
@@ -161,6 +166,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				59A3A7062912256300952759 /* table.c in Sources */,
 				590B038828F68728008BE961 /* value.c in Sources */,
 				590B037E28F683C6008BE961 /* debug.c in Sources */,
 				590B036F28F6833C008BE961 /* main.c in Sources */,
