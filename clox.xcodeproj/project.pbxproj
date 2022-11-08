@@ -43,6 +43,7 @@
 		590B038128F68400008BE961 /* memory.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = memory.c; sourceTree = "<group>"; };
 		590B038628F68728008BE961 /* value.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = value.h; sourceTree = "<group>"; };
 		590B038728F68728008BE961 /* value.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = value.c; sourceTree = "<group>"; };
+		5935B64E291B65C300E27F8D /* test.lox */ = {isa = PBXFileReference; lastKnownFileType = text; path = test.lox; sourceTree = "<group>"; };
 		593C92B028FE678F00199477 /* compiler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = compiler.h; sourceTree = "<group>"; };
 		593C92B128FE678F00199477 /* compiler.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = compiler.c; sourceTree = "<group>"; };
 		593C92B328FE683800199477 /* scanner.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = scanner.h; sourceTree = "<group>"; };
@@ -105,6 +106,7 @@
 				59C52CD3290A462500AEB18D /* object.c */,
 				59A3A7042912256300952759 /* table.h */,
 				59A3A7052912256300952759 /* table.c */,
+				5935B64E291B65C300E27F8D /* test.lox */,
 			);
 			path = clox;
 			sourceTree = "<group>";
